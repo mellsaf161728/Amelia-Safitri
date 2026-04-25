@@ -237,6 +237,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Laki-Laki"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rlakiActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="rperempuan">
       <Properties>
@@ -368,9 +371,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtcari">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtcariActionPerformed"/>
         <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtcariKeyPressed"/>

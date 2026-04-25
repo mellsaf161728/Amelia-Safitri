@@ -146,6 +146,11 @@ protected void datatable(){
         buttonGroup1.add(rlaki);
         rlaki.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         rlaki.setText("Laki-Laki");
+        rlaki.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rlakiActionPerformed(evt);
+            }
+        });
 
         buttonGroup1.add(rperempuan);
         rperempuan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -221,7 +226,6 @@ protected void datatable(){
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel7.setText("Data Pelanggan");
 
-        txtcari.setText("1");
         txtcari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtcariActionPerformed(evt);
@@ -519,6 +523,10 @@ protected void datatable(){
       }
 
     }//GEN-LAST:event_txtcariKeyPressed
+
+    private void rlakiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rlakiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rlakiActionPerformed
 
     /**
      * @param args the command line arguments
